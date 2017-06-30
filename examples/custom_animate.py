@@ -67,7 +67,7 @@ font = ImageFont.load_default()
 draw = ImageDraw.Draw(image)
 
 # Define text and get total width.
-text = 'NOKIA 5110: NOT JUST FOR SNAKE ANYMORE. THIS IS AN OLD SCHOOL DEMO SCROLLER!! GREETZ TO: LADYADA & THE ADAFRUIT CREW, TRIXTER, FUTURE CREW, AND FARBRAUSCH'
+text = 'همه چی درست است'
 maxwidth, height = draw.textsize(text, font=font)
 
 # Set starting position.
