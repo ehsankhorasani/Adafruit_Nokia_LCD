@@ -69,7 +69,7 @@ font = ImageFont.load_default()
 draw = ImageDraw.Draw(image)
 
 # Define text and get total width.
-text = u'همه چی درست است'
+text = unicode('همه چی درست است', 'utf8')
 maxwidth, height = draw.textsize(text, font=font)
 
 # Set starting position.
