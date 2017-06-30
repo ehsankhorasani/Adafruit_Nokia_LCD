@@ -75,7 +75,7 @@ font = ImageFont.load_default()
 # font = ImageFont.truetype('Minecraftia.ttf', 8)
 
 # Write some text.
-draw.text((1,1), u"\u2605" + u"\u2606" + u"Текст на русском", font=font)
+draw.text((1,1), u"سلام", font=font)
 
 # Display image.
 disp.image(image)
