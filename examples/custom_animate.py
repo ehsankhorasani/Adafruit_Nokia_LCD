@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 # Copyright (c) 2014 Adafruit Industries
 # Author: Tony DiCola
 #
@@ -67,7 +69,7 @@ font = ImageFont.load_default()
 draw = ImageDraw.Draw(image)
 
 # Define text and get total width.
-text = 'همه چی درست است'
+text = u'همه چی درست است'
 maxwidth, height = draw.textsize(text, font=font)
 
 # Set starting position.
