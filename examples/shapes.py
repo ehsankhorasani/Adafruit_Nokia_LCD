@@ -94,7 +94,7 @@ font = ImageFont.load_default()
 # font = ImageFont.truetype('Minecraftia.ttf', 8)
 
 # Write some text.
-draw.text((8,30), 'Hello World!', font=font)
+draw.text((1,1), 'Hello World!', font=font)
 
 # Display image.
 disp.image(image)
